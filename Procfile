@@ -1,1 +1,1 @@
-web: gunicorn amazonextraction.wsgi
+web: gunicorn aut2.wsgi
