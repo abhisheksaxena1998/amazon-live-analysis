@@ -169,7 +169,7 @@ def result(request):
         # Add your own ASINs here
         extracted_data = []
         
-        for i in range(5):
+        for i in range(3):
             print(f"Downloading and processing page {i}")
             extracted_data.append(ParseReviews(i))
             sleep(5)
