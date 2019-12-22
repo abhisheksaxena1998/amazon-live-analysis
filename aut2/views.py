@@ -17,6 +17,10 @@ from time import sleep
 from django.http import HttpResponse
 from django.shortcuts import render
 import os
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.set_style("darkgrid", {"axes.facecolor": ".7"})
 
 def home(request):
     return render(request,'home.html')
@@ -31,6 +35,8 @@ def result(request):
     img="/"+imgname
     location="static/"+imgname
     loc="/static/"+imgname
+    location1="static/"+"em"+imgname
+    loc1="/static/"+"em"+imgname
     print (loc)
     l=f'\"{loc}"'
     print (l)
@@ -232,6 +238,33 @@ def result(request):
         
         processed_tweets.append(processed_tweet)
 
+    X=df['review_header']
+    emotion=[]
+    loaded_model = joblib.load('emotion_model.sav')
+    for i in X:
+        emotion.append(loaded_model.predict([i])[0])
+    df['emotion']=emotion
+    b=df.groupby('emotion')['review_header'].count()
+    x=[]
+    y=[]
+    for i in range(len(b)):
+        x.append(b.index[i])
+        y.append(b[i])  
+    import matplotlib.pyplot as plt
+    
+    fig, ax = plt.subplots(figsize=(15,7))
+    plt.bar(x,y,edgecolor = 'black', linewidth=3,color=['orange','pink','violet','yellow','red','cyan','black','orange','black','purple','black','black'])
+
+
+    ax.set_xlabel('Labels',fontsize=20)
+    ax.set_ylabel('Frequency of occurence',fontsize=20)
+    ax.set_title("Labels and their frequency",fontsize=20)
+
+    plt.xticks(x,rotation=30)
+    ax = plt.gca()
+    ax.tick_params(axis = 'both', which = 'major', labelsize = 15)    
+    fig.savefig(location1, bbox_inches='tight')
+
     with open('az_off_corpus.txt', 'w',encoding='utf-8') as f:
         for item in processed_tweets:
             f.write("%s\n" % item)    
@@ -274,7 +307,7 @@ def result(request):
 
 
     #return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm,'filename':loc,'f2':imgname})
-    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc})
+    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc,'f3':loc1})
 
 def about(request):
     return render(request,'about.html')    
