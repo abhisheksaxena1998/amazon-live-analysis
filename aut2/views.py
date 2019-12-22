@@ -267,6 +267,7 @@ def result(request):
     plt.axis('off')
     plt.show()
     fig.savefig(location, bbox_inches='tight')
+    fig.savefig(loc, bbox_inches='tight')
     fig.savefig(imgname, bbox_inches='tight')
     plt.savefig('static\\cloud_amazon.png', facecolor='k', bbox_inches='tight')
 
