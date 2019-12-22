@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['realtime-portal.herokuapp.com','127.0.0.1']
 #'automate-proc.herokuapp.com' , '127.0.0.1'
-
+#ALLOWED_HOSTS = []
 
 # Application definition
 

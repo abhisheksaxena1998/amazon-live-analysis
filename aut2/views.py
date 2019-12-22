@@ -28,7 +28,8 @@ def result(request):
     csvfilename=nm[23:28]+".csv"
 
     imgname=nm[23:28]+'.png'
-    location="static//"+imgname
+    img="/"+imgname
+    location="static/"+imgname
     loc="/static/"+imgname
     print (loc)
     l=f'\"{loc}"'
@@ -268,12 +269,12 @@ def result(request):
     plt.show()
     #fig.savefig(location, bbox_inches='tight')
     #fig.savefig(loc, bbox_inches='tight')
-    fig.savefig(imgname, bbox_inches='tight')
+    fig.savefig(location, bbox_inches='tight')
     #plt.savefig('static\\cloud_amazon.png', facecolor='k', bbox_inches='tight')
 
 
     #return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm,'filename':loc,'f2':imgname})
-    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':imgname})
+    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc})
 
 def about(request):
     return render(request,'about.html')    
