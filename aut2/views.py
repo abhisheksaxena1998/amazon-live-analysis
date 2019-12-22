@@ -266,11 +266,11 @@ def result(request):
 
     plt.axis('off')
     plt.show()
-    fig.savefig("static\\cloud_amazon3.png", bbox_inches='tight')
+    fig.savefig(location, bbox_inches='tight')
     plt.savefig('static\\cloud_amazon.png', facecolor='k', bbox_inches='tight')
 
 
-    return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm})
+    return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm,'filename':loc})
 
 def about(request):
     return render(request,'about.html')    
