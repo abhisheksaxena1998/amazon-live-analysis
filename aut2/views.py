@@ -28,7 +28,7 @@ def result(request):
     csvfilename=nm[23:28]+".csv"
 
     imgname=nm[23:28]+'.png'
-    location="static\\"+imgname
+    location="static//"+imgname
     loc="/static/"+imgname
     print (loc)
     l=f'\"{loc}"'
