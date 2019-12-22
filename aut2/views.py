@@ -16,6 +16,7 @@ from dateutil import parser as dateparser
 from time import sleep
 from django.http import HttpResponse
 from django.shortcuts import render
+import os
 
 def home(request):
     return render(request,'home.html')
@@ -25,6 +26,11 @@ def result(request):
     #"az_joy_corpus.txt"
     nm=request.GET['url']
     csvfilename=nm[23:28]+".csv"
+
+    if os.path.exists("static\\cloud_amazon3.png"):
+        os.remove("static\\cloud_amazon3.png")
+    else:
+        print("The file does not exist")
     #nm="amazonextraction/" + nm
     
     def ParseReviews(i):
