@@ -27,10 +27,10 @@ def result(request):
     nm=request.GET['url']
     csvfilename=nm[23:28]+".csv"
 
-    if os.path.exists("static\\cloud_amazon3.png"):
-        os.remove("static\\cloud_amazon3.png")
-    else:
-        print("The file does not exist")
+    #if os.path.exists("static\\cloud_amazon3.png"):
+    #    os.remove("static\\cloud_amazon3.png")
+    #else:
+    #    print("The file does not exist")
     #nm="amazonextraction/" + nm
     
     def ParseReviews(i):
