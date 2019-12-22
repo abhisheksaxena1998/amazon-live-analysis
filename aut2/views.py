@@ -170,10 +170,10 @@ def result(request):
         # Add your own ASINs here
         extracted_data = []
         
-        for i in range(3):
+        for i in range(10):
             print(f"Downloading and processing page {i}")
             extracted_data.append(ParseReviews(i))
-            sleep(5)
+            sleep(0)
         f = open('buggdata.json', 'w')
         dump(extracted_data, f, indent=4)
         f.close()
