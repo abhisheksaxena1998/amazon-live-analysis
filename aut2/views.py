@@ -27,6 +27,14 @@ def result(request):
     nm=request.GET['url']
     csvfilename=nm[23:28]+".csv"
 
+    imgname=nm[23:28]+'.png'
+    location="static\\"+imgname
+    loc="/static/"+imgname
+    print (loc)
+    l=f'\"{loc}"'
+    print (l)
+    print (location)
+
     #if os.path.exists("static\\cloud_amazon3.png"):
     #    os.remove("static\\cloud_amazon3.png")
     #else:
