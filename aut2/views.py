@@ -37,6 +37,8 @@ def result(request):
     loc="/static/"+imgname
     location1="static/"+"em"+imgname
     loc1="/static/"+"em"+imgname
+    location2="static/"+"ha"+imgname
+    loc2="/static/"+"ha"+imgname
     print (loc)
     l=f'\"{loc}"'
     print (l)
@@ -283,7 +285,7 @@ def result(request):
     #% matplotlib inline
     stopwords= set(STOPWORDS)
 
-    stopwords.update(["status","still","must","support","",'pretty','mmine','loud','amazon','stays','anything','mine','month','proper','listen','written','box' ,"public","last","read","johnson","didn","ve","put","needs","save","help","deal","tories","years","articles","need","back","government","pm","back","life","care","everyone","give","day","country","new","look","mps","everything","really","need","hard","believe","even","still","re","eu","pic","dlidington", "philiphammonduk","jeremy_hunt","may","theresa_may","alanduncanmp","watson","work",'don', "anna_soubry","voted","heidi","constituents","heidiallen","claiming","yasmin","george_osborne","ayeshahazarika","tom","conservatives","griffith","hear","tory", "twitter","amberrudduk","love","take","real","friend","good","conservative","election","right","tell","vote","sure","parliament",'people',"justinegreening","tom_watson","labour","time","party","think","going","set","lines","nickymorgan","amberruddhr","will","one","brexit","say","mp","said","want","come","well","no","see","now","know","borisjohnson","stephentwigg","please","happy","share","remember","thank","much","constituent","spaces","job","action","got","jbl",'sound','product','speaker','rha','gya','high','hai',"today",'ho','go','ll','amazes','working','thing','laptop','gaya','raha','purchase','bluetooth','speakers','amazing','compactness','connect'])
+    #stopwords.update([])
 
     wordcloud = WordCloud(
                             background_color='black',
@@ -305,9 +307,104 @@ def result(request):
     fig.savefig(location, bbox_inches='tight')
     #plt.savefig('static\\cloud_amazon.png', facecolor='k', bbox_inches='tight')
 
+    joi=df[df['emotion']=="happiness"]
+    joi.to_csv("tempem.csv")
+    df=pd.read_csv("tempem.csv")
+    X=df['review_header']
+    import re  
+
+    processed_tweets=[]
+
+    for tweet in range(1, len(X)):  
+        processed_tweet = re.sub(r'\W', ' ', str(X[tweet]))
+
+                
+        # Remove all the special characters
+        
+        processed_tweet = re.sub(r'http\S+', ' ', processed_tweet)
+        
+        #processed_tweet = re.sub(r'https?:\/\/+', ' ', processed_tweet)
+        
+        #processed_tweet=re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', ' ',processed_tweet)
+        
+        processed_tweet=re.sub(r'www\S+', ' ', processed_tweet)
+        
+        processed_tweet=re.sub(r'co \S+', ' ', processed_tweet)
+        # remove all single characters
+        processed_tweet = re.sub(r'\s+[a-zA-Z]\s+', ' ', processed_tweet)
+    
+        # Remove single characters from the start
+        processed_tweet = re.sub(r'\^[a-zA-Z]\s+', ' ', processed_tweet) 
+    
+        # Substituting multiple spaces with single space
+        processed_tweet= re.sub(r'\s+', ' ', processed_tweet, flags=re.I)
+    
+        # Removing prefixed 'b'
+        processed_tweet = re.sub(r'^b\s+', ' ', processed_tweet)
+        
+        processed_tweet = re.sub(r'\d','',processed_tweet)
+        
+        processed_tweet= re.sub(r'\s+', ' ', processed_tweet, flags=re.I)
+
+    
+        # Converting to Lowercase
+        processed_tweet = processed_tweet.lower()
+        
+        processed_tweets.append(processed_tweet)
+        
+    print (processed_tweets)    
+    with open('az_corpus.txt', 'w',encoding='utf-8') as f:
+        for item in processed_tweets:
+            f.write("%s\n" % item)
+
+    sample = open("az_corpus.txt", "r",encoding='utf-8') 
+    s = sample.read() 
+
+    # Replaces escape character with space 
+    f = s.replace("\n", " ") 
+
+    from os import path
+    from PIL import Image
+    from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+    import matplotlib.pyplot as plt
+    #% matplotlib inline
+    stopwords= set(STOPWORDS)
+    stopwords.update([" ",''])
+    listtowrite=[]
+    for i in f.split(((' '))):
+        if i not in stopwords:
+            listtowrite.append(i)
+    print (listtowrite)
+    print (f.split(((' '))))
+    type(f)        
+    with open('az_corpus.txt', 'w',encoding='utf-8') as f:
+        for item in listtowrite:
+            f.write("%s\n" % item)
+    import collections
+    words = re.findall(r'\w+', open("az_corpus.txt").read().lower())
+    s=collections.Counter(words).most_common(50)
+    s
+    x1=[]
+    y1=[]
+    for i in range(len(s)):
+        x1.append(s[i][0])
+        y1.append(s[i][1])
+    print (x1)
+    print (y1)
+    
+    fig, ax = plt.subplots(figsize=(15,7))
+    plt.bar(x1, y1, edgecolor = 'black', linewidth=2,color="purple")
+    #barlist[0].set_color('r')
+    ax.set_xlabel('Words',fontsize=20)
+    ax.set_ylabel('Frequency of words',fontsize=20)
+    ax.set_title("Most used words in 'Happiness' reviews",fontsize=20)
+    plt.xticks(rotation=90)
+    ax = plt.gca()
+    ax.tick_params(axis = 'both', which = 'major', labelsize = 15)    
+    fig.savefig(location2, bbox_inches='tight')
 
     #return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm,'filename':loc,'f2':imgname})
-    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc,'f3':loc1})
+    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc,'f3':loc1,'f4':loc2})
 
 def about(request):
     return render(request,'about.html')    
