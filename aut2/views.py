@@ -39,6 +39,8 @@ def result(request):
     loc1="/static/"+"em"+imgname
     location2="static/"+"ha"+imgname
     loc2="/static/"+"ha"+imgname
+    location3="static/"+"of"+imgname
+    loc3="/static/"+"of"+imgname
     print (loc)
     l=f'\"{loc}"'
     print (l)
@@ -239,6 +241,7 @@ def result(request):
         processed_tweet = processed_tweet.lower()
         
         processed_tweets.append(processed_tweet)
+    from sklearn.externals import joblib
 
     X=df['review_header']
     emotion=[]
@@ -403,8 +406,114 @@ def result(request):
     ax.tick_params(axis = 'both', which = 'major', labelsize = 15)    
     fig.savefig(location2, bbox_inches='tight')
 
+    df=pd.read_csv(csvfilename,error_bad_lines=False)
+    df.columns=['review_posted_date','review_header','review_rating','author']
+    X=df['review_header']
+
+ 
+    emotion=[]
+    dict={0:"hate_speech",1:"offensive_speech",2:"neither"}
+    from sklearn.externals import joblib
+    loaded_model = joblib.load('offense_hate_modelv1.sav')
+    for i in X:
+        emotion.append(dict[loaded_model.predict([i])[0]])
+    df['nature']=emotion
+    off=df[df['nature']=="offensive_speech"]
+    off.to_csv("tempoff.csv")
+    df=pd.read_csv("tempoff.csv")
+    X=df['review_header']
+    import re  
+
+    processed_tweets=[]
+
+    for tweet in range(1, len(X)):  
+        processed_tweet = re.sub(r'\W', ' ', str(X[tweet]))
+
+                
+        # Remove all the special characters
+        
+        processed_tweet = re.sub(r'http\S+', ' ', processed_tweet)
+        
+        #processed_tweet = re.sub(r'https?:\/\/+', ' ', processed_tweet)
+        
+        #processed_tweet=re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', ' ',processed_tweet)
+        
+        processed_tweet=re.sub(r'www\S+', ' ', processed_tweet)
+        
+        processed_tweet=re.sub(r'co \S+', ' ', processed_tweet)
+        # remove all single characters
+        processed_tweet = re.sub(r'\s+[a-zA-Z]\s+', ' ', processed_tweet)
+    
+        # Remove single characters from the start
+        processed_tweet = re.sub(r'\^[a-zA-Z]\s+', ' ', processed_tweet) 
+    
+        # Substituting multiple spaces with single space
+        processed_tweet= re.sub(r'\s+', ' ', processed_tweet, flags=re.I)
+    
+        # Removing prefixed 'b'
+        processed_tweet = re.sub(r'^b\s+', ' ', processed_tweet)
+        
+        processed_tweet = re.sub(r'\d','',processed_tweet)
+        
+        processed_tweet= re.sub(r'\s+', ' ', processed_tweet, flags=re.I)
+
+    
+        # Converting to Lowercase
+        processed_tweet = processed_tweet.lower()
+        
+        processed_tweets.append(processed_tweet)
+        
+    print (processed_tweets)    
+    with open('az_off_corpus.txt', 'w',encoding='utf-8') as f:
+        for item in processed_tweets:
+            f.write("%s\n" % item)
+
+    sample = open("az_off_corpus.txt", "r",encoding='utf-8') 
+    s = sample.read() 
+
+    # Replaces escape character with space 
+    f = s.replace("\n", " ") 
+
+    from os import path
+    from PIL import Image
+    from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+    import matplotlib.pyplot as plt
+    #% matplotlib inline
+    stopwords= set(STOPWORDS)
+    stopwords.update([" ",''])
+    listtowrite=[]
+    for i in f.split(' '):
+        if i not in stopwords:
+            listtowrite.append(i)
+    print (listtowrite)
+    import collections
+    words = re.findall(r'\w+', open("az_off_corpus.txt").read().lower())
+    s=collections.Counter(words).most_common(50)
+    x1=[]
+    y1=[]
+    for i in range(len(s)):
+        x1.append(s[i][0])
+        y1.append(s[i][1])
+    print (x1)
+    print (y1)    
+    fig, ax = plt.subplots(figsize=(15,7))
+    plt.bar(x1, y1, edgecolor = 'black', linewidth=2,color="cyan")
+    #barlist[0].set_color('r')
+    ax.set_xlabel('Words',fontsize=20)
+    ax.set_ylabel('Frequency of words',fontsize=20)
+    ax.set_title("Most used words in 'Offensive' reviews",fontsize=20)
+    plt.xticks(rotation=90)
+    ax = plt.gca()
+    ax.tick_params(axis = 'both', which = 'major', labelsize = 15)    
+    fig.savefig(location3, bbox_inches='tight')
+    ##savefig
+
+
+
+
+
     #return render(request,'result.html',{'result':'Real-time analysis successfull','url':nm,'filename':loc,'f2':imgname})
-    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc,'f3':loc1,'f4':loc2})
+    return render(request,'result.html',{'result':'Real-time analysis successfull','f2':loc,'f3':loc1,'f4':loc2,'f5':loc3})
 
 def about(request):
     return render(request,'about.html')    
