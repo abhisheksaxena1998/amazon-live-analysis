@@ -53,7 +53,7 @@ def result(request):
     #nm="amazonextraction/" + nm
     
     def ParseReviews(i):
-        amazon_url  = nm
+        amazon_url  = nm+f"{i}"
         
         #amazon_url  = f'https://www.amazon.in/JBL-Ultra-Portable-Wireless-Bluetooth-Speaker/product-reviews/B07B9NMQTP/ref=cm_cr_arp_d_paging_btm_next_2?pageNumber={i}'
         #gen sample https://www.amazon.in/Infinity-Glide-100-Sweatproof-Headphones/product-reviews/B07WBY3HNV/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
@@ -180,6 +180,7 @@ def result(request):
         # Add your own ASINs here
         extracted_data = []
         
+        i=5
         for i in range(20):
             print(f"Downloading and processing page {i}")
             extracted_data.append(ParseReviews(i))
