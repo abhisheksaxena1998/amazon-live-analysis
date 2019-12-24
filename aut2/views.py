@@ -147,7 +147,7 @@ def result(request):
 
                 with open (csvfilename,'a',encoding="utf-8") as res:        
                     writer=csv.writer(res)           
-                    s="{},{},{},{}\n".format(review_posted_date,review_header,review_rating,author)
+                    s="{},{},{},{}\n".format(review_posted_date,review_header.replace(',',''),review_rating,author.replace(',',''))
                     res.write(s)
                     print (s)
 
@@ -179,7 +179,7 @@ def result(request):
     def ReadAsin():
         # Add your own ASINs here
         #dnextracted_data = []
-        for i in range(15):
+        for i in range(20):
             print(f"Downloading and processing page {i}")
             ParseReviews(i)
             #dnextracted_data.append(ParseReviews(i))
@@ -312,7 +312,7 @@ def result(request):
 
     joi=df[df['emotion']=="happiness"]
     joi.to_csv("tempem.csv")
-    df=pd.read_csv("tempem.csv")
+    df=pd.read_csv("tempem.csv",error_bad_lines=False)
     X=df['review_header']
     import re  
 
@@ -420,7 +420,7 @@ def result(request):
     df['nature']=emotion
     off=df[df['nature']=="offensive_speech"]
     off.to_csv("tempoff.csv")
-    df=pd.read_csv("tempoff.csv")
+    df=pd.read_csv("tempoff.csv",error_bad_lines=False)
     X=df['review_header']
     import re  
 
