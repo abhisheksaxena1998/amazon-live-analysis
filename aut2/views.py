@@ -178,14 +178,15 @@ def result(request):
 
     def ReadAsin():
         # Add your own ASINs here
-        extracted_data = []
+        #dnextracted_data = []
         for i in range(15):
             print(f"Downloading and processing page {i}")
-            extracted_data.append(ParseReviews(i))
+            ParseReviews(i)
+            #dnextracted_data.append(ParseReviews(i))
             sleep(0)
-        f = open('buggdata.json', 'w')
-        dump(extracted_data, f, indent=4)
-        f.close()
+        #f = open('buggdata.json', 'w')
+        #dump(extracted_data, f, indent=4)
+        #f.close()
 
 
 

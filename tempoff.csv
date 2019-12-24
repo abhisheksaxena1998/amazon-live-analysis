@@ -1,413 +1,125 @@
 ,review_posted_date,review_header,review_rating,author,nature
-7,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-8,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-9,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-17,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-18,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-19,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-27,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-28,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-29,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-37,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-38,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-39,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-47,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-48,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-49,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-57,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-58,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-59,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-67,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-68,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-69,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-77,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-78,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-79,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-87,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-88,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-89,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-97,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-98,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-99,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-107,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-108,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-109,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-117,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-118,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-119,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-127,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-128,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-129,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-137,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-138,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-139,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-147,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-148,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-149,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-157,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-158,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-159,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-167,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-168,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-169,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-177,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-178,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-179,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-187,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-188,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-189,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-197,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-198,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-199,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-207,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-208,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-209,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-217,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-218,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-219,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-227,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-228,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-229,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-237,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-238,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-239,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-247,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-248,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-249,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-257,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-258,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-259,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-267,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-268,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-269,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-277,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-278,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-279,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-287,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-288,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-289,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-297,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-298,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-299,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-307,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-308,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-309,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-317,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-318,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-319,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-327,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-328,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-329,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-337,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-338,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-339,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-347,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-348,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-349,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-357,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-358,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-359,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-367,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-368,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-369,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-377,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-378,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-379,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-387,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-388,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-389,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-397,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-398,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-399,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-407,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-408,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-409,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-417,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-418,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-419,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-427,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-428,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-429,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-437,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-438,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-439,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-447,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-448,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-449,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-457,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-458,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-459,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-467,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-468,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-469,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-477,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-478,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-479,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-487,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-488,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-489,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-497,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-498,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-499,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-507,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-508,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-509,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-517,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-518,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-519,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-527,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-528,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-529,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-537,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-538,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-539,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-547,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-548,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-549,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-557,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-558,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-559,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-567,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-568,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-569,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-577,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-578,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-579,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-587,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-588,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-589,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-597,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-598,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-599,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-607,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-608,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-609,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-617,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-618,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-619,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-627,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-628,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-629,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-637,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-638,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-639,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-647,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-648,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-649,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-657,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-658,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-659,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-667,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-668,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-669,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-677,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-678,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-679,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-687,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-688,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-689,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-697,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-698,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-699,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-707,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-708,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-709,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-717,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-718,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-719,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-727,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-728,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-729,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-737,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-738,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-739,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-747,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-748,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-749,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-757,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-758,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-759,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-767,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-768,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-769,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-777,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-778,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-779,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-787,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-788,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-789,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-797,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-798,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-799,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-807,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-808,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-809,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-817,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-818,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-819,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-827,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-828,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-829,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-837,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-838,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-839,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-847,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-848,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-849,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-857,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-858,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-859,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-867,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-868,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-869,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-877,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-878,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-879,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-887,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-888,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-889,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-897,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-898,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-899,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-907,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-908,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-909,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-917,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-918,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-919,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-927,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-928,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-929,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-937,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-938,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-939,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-947,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-948,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-949,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-957,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-958,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-959,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-967,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-968,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-969,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-977,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-978,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-979,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-987,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-988,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-989,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-997,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-998,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-999,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1007,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1008,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1009,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1017,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1018,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1019,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1027,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1028,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1029,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1037,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1038,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1066,17 Aug 2019,Good speaker in small form factor,5.0,Sanket,offensive_speech
-1076,05 Apr 2019,Everything from JBL is a class.,5.0,Mayank Verma,offensive_speech
-1085,31 May 2019,JBL Speaker,5.0,Amazon Customer,offensive_speech
-1086,05 Mar 2019,Go for it if you want compact bluetooth speaker,5.0,Harsh Shastri,offensive_speech
-1087,24 Nov 2019,Worth to the prize.,5.0,Jeevan J.,offensive_speech
-1092,08 Nov 2019,I love it's bass,5.0,Suri,offensive_speech
-1095,18 Oct 2019,Jbl clip 3,5.0,Amarjeet Kaur,offensive_speech
-1096,01 Oct 2019,Durable speaker,5.0,Neal S Shah,offensive_speech
-1100,04 Nov 2019,Price is high,4.0,souvick,offensive_speech
-1116,15 Oct 2019,9/10. 9 because of bass otherwise 10,5.0,Shubham solia,offensive_speech
-1124,04 Oct 2019,Yo,4.0,Yusuf Yahana.,offensive_speech
-1127,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1135,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1136,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1137,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1145,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1146,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1148,22 Aug 2019,Jbl clip 2 was better than clip 3. Dissatisfied!!😔,3.0,Saki Sengupta,offensive_speech
-1160,11 Oct 2019,"Pros of ""JBL Clip 3""",5.0,shubham jasuja,offensive_speech
-1164,21 Oct 2019,The sound quality off this will blow your mind,5.0,Siddhesh Kulkarni,offensive_speech
-1167,21 Jun 2019,Only for music addicts.,4.0,Freethinker,offensive_speech
-1168,15 May 2019,Flat to low bass and medium loudness,3.0,PP,offensive_speech
-1170,26 Apr 2019,Fantastic speaker,4.0,Anmol Chordia,offensive_speech
-1171,23 Oct 2019,Lacking of bass and loudness,4.0,darshan kapadia,offensive_speech
-1175,28 Apr 2019,Old clip 2 better in tiny details.,3.0,ravi,offensive_speech
-1187,06 Oct 2019,Less Bass,3.0,Raghavendra,offensive_speech
-1189,05 Nov 2019,I love jbl,5.0,karthik,offensive_speech
-1198,10 Jun 2019,JBL Clip 3,5.0,Mrinal Kanti Mridha,offensive_speech
-1199,16 Oct 2019,Jbl clip 3,5.0,arif,offensive_speech
-1201,01 Feb 2019,Unlocked your life with JBL clip 3,5.0,Jordan Menezes,offensive_speech
-1207,26 Feb 2019,A good speaker in terms of battery and portability.,4.0,Aziz Minat,offensive_speech
-1211,26 Mar 2019,Awesome speaker,5.0,Suhas G.,offensive_speech
-1217,29 Oct 2019,Awesome speaker,5.0,phanee,offensive_speech
-1236,01 Mar 2019,Ok,5.0,Marvin Patel .k.,offensive_speech
-1238,22 Aug 2019,True like,5.0,Satadru,offensive_speech
-1242,26 Apr 2019,Lacks in bass otherwise good speaker,4.0,Akshat,offensive_speech
-1256,26 Oct 2019,Dare to listen!,5.0,Akhil ks,offensive_speech
-1268,27 Oct 2019,Excellent blue tooth speaker,4.0,shanavas sainudeen,offensive_speech
-1279,17 Aug 2019,Good speaker in small form factor,5.0,Sanket,offensive_speech
-1288,30 Jan 2019,Good Bluetooth Speaker,4.0,Amol Shinde,offensive_speech
-1297,02 Dec 2019,The speaker front cover has come out,1.0,ROHIT GUPTA,offensive_speech
-1319,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1327,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1328,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1329,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1337,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1338,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1340,22 Aug 2019,Jbl clip 2 was better than clip 3. Dissatisfied!!😔,3.0,Saki Sengupta,offensive_speech
-1352,11 Oct 2019,"Pros of ""JBL Clip 3""",5.0,shubham jasuja,offensive_speech
-1356,21 Oct 2019,The sound quality off this will blow your mind,5.0,Siddhesh Kulkarni,offensive_speech
-1359,21 Jun 2019,Only for music addicts.,4.0,Freethinker,offensive_speech
-1360,15 May 2019,Flat to low bass and medium loudness,3.0,PP,offensive_speech
-1362,26 Apr 2019,Fantastic speaker,4.0,Anmol Chordia,offensive_speech
-1363,23 Oct 2019,Lacking of bass and loudness,4.0,darshan kapadia,offensive_speech
-1367,28 Apr 2019,Old clip 2 better in tiny details.,3.0,ravi,offensive_speech
-1379,06 Oct 2019,Less Bass,3.0,Raghavendra,offensive_speech
-1381,05 Nov 2019,I love jbl,5.0,karthik,offensive_speech
-1390,10 Jun 2019,JBL Clip 3,5.0,Mrinal Kanti Mridha,offensive_speech
-1391,16 Oct 2019,Jbl clip 3,5.0,arif,offensive_speech
-1393,01 Feb 2019,Unlocked your life with JBL clip 3,5.0,Jordan Menezes,offensive_speech
-1399,26 Feb 2019,A good speaker in terms of battery and portability.,4.0,Aziz Minat,offensive_speech
-1403,26 Mar 2019,Awesome speaker,5.0,Suhas G.,offensive_speech
-1409,29 Oct 2019,Awesome speaker,5.0,phanee,offensive_speech
-1428,01 Mar 2019,Ok,5.0,Marvin Patel .k.,offensive_speech
-1430,22 Aug 2019,True like,5.0,Satadru,offensive_speech
-1434,26 Apr 2019,Lacks in bass otherwise good speaker,4.0,Akshat,offensive_speech
-1448,26 Oct 2019,Dare to listen!,5.0,Akhil ks,offensive_speech
-1460,27 Oct 2019,Excellent blue tooth speaker,4.0,shanavas sainudeen,offensive_speech
-1471,17 Aug 2019,Good speaker in small form factor,5.0,Sanket,offensive_speech
-1480,30 Jan 2019,Good Bluetooth Speaker,4.0,Amol Shinde,offensive_speech
-1489,02 Dec 2019,The speaker front cover has come out,1.0,ROHIT GUPTA,offensive_speech
-1511,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1519,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1520,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1521,09 Nov 2018,Not worth for money which you have paid . Over priced,2.0,Ravi,offensive_speech
-1529,29 Oct 2018,Fantastic speaker better than UE wonderboom,5.0,Munish Kumar,offensive_speech
-1530,26 Oct 2019,CLASSY SPEAKER,5.0,Kuruvila,offensive_speech
-1532,22 Aug 2019,Jbl clip 2 was better than clip 3. Dissatisfied!!😔,3.0,Saki Sengupta,offensive_speech
-1544,11 Oct 2019,"Pros of ""JBL Clip 3""",5.0,shubham jasuja,offensive_speech
-1548,21 Oct 2019,The sound quality off this will blow your mind,5.0,Siddhesh Kulkarni,offensive_speech
-1551,21 Jun 2019,Only for music addicts.,4.0,Freethinker,offensive_speech
-1552,15 May 2019,Flat to low bass and medium loudness,3.0,PP,offensive_speech
-1554,26 Apr 2019,Fantastic speaker,4.0,Anmol Chordia,offensive_speech
-1555,23 Oct 2019,Lacking of bass and loudness,4.0,darshan kapadia,offensive_speech
-1559,28 Apr 2019,Old clip 2 better in tiny details.,3.0,ravi,offensive_speech
-1571,06 Oct 2019,Less Bass,3.0,Raghavendra,offensive_speech
-1573,05 Nov 2019,I love jbl,5.0,karthik,offensive_speech
-1582,10 Jun 2019,JBL Clip 3,5.0,Mrinal Kanti Mridha,offensive_speech
-1583,16 Oct 2019,Jbl clip 3,5.0,arif,offensive_speech
-1585,01 Feb 2019,Unlocked your life with JBL clip 3,5.0,Jordan Menezes,offensive_speech
-1591,26 Feb 2019,A good speaker in terms of battery and portability.,4.0,Aziz Minat,offensive_speech
-1595,26 Mar 2019,Awesome speaker,5.0,Suhas G.,offensive_speech
-1601,29 Oct 2019,Awesome speaker,5.0,phanee,offensive_speech
-1620,01 Mar 2019,Ok,5.0,Marvin Patel .k.,offensive_speech
-1622,22 Aug 2019,True like,5.0,Satadru,offensive_speech
-1626,26 Apr 2019,Lacks in bass otherwise good speaker,4.0,Akshat,offensive_speech
-1640,26 Oct 2019,Dare to listen!,5.0,Akhil ks,offensive_speech
-1652,27 Oct 2019,Excellent blue tooth speaker,4.0,shanavas sainudeen,offensive_speech
-1663,17 Aug 2019,Good speaker in small form factor,5.0,Sanket,offensive_speech
-1672,30 Jan 2019,Good Bluetooth Speaker,4.0,Amol Shinde,offensive_speech
-1681,02 Dec 2019,The speaker front cover has come out,1.0,ROHIT GUPTA,offensive_speech
+1,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+11,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+21,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+31,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+41,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+51,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+61,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+71,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+81,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+91,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+101,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+111,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+121,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+131,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+141,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+151,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+161,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+171,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+181,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+191,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+201,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+211,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+221,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+231,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+241,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+251,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+261,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+271,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+281,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+291,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+301,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+311,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+321,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+331,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+341,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+351,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+361,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+371,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+381,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+391,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+401,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+411,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+421,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+431,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+441,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+451,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+461,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+471,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+481,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+491,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+501,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+511,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+521,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+531,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+541,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+551,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+561,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+571,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+581,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+591,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+601,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+611,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+621,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+631,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+641,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+651,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+661,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+671,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+681,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+691,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+701,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+711,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+721,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+731,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+741,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+751,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+761,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+771,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+781,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+791,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+801,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+811,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+821,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+831,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+841,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+851,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+861,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+871,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+881,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+891,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+901,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+911,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+921,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+931,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+941,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+951,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+961,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+971,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+981,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+991,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1001,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1011,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1021,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1031,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1041,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1051,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1061,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1071,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1081,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1091,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1101,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1111,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1121,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1131,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1141,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1151,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1161,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1171,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1181,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1191,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1201,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1211,12 Apr 2019,R-32 is being phased out by 2030. This AC is the future!,5.0,Toshesh,offensive_speech
+1219,23 Jul 2019,Good ac but Price is high,4.0,Md Raza Kaleem,offensive_speech
+1230,02 Aug 2019,Price high,4.0,Mohini Goel,offensive_speech
