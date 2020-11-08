@@ -3,6 +3,8 @@ amazon-live-analysis
 
 Live at https://realtime-portal.herokuapp.com/
 
+![Demonstration](/realtime.gif)
+
 ## Sample URL
 
 https://www.amazon.in/Philips-DuraPower-Trimmer-BT3203-15/product-reviews/B07CXB2ZVB/ref=cm_cr_arp_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
